@@ -6,3 +6,4 @@
 3 comit
 4 commit
 5 commit
+Version 1.0 released
