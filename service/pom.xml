@@ -12,7 +12,10 @@
 
 	<artifactId>service</artifactId>
 	<dependencies>
-	
+		<dependency>
+			<groupId>com.itacademy.jd2.apetrov.wcms</groupId>
+			<artifactId>dao-jdbc-impl</artifactId>
+		</dependency>
 	</dependencies>
 
 </project>
