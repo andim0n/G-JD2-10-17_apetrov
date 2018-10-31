@@ -16,7 +16,7 @@ public class PropertyDaoImpl extends AbstractDaoImpl<IProperty, Integer> impleme
 		final IProperty entity = createEntity();
 		entity.setId((Integer) resultSet.getObject("id"));
 		entity.setName(resultSet.getString("name"));
-		entity.setName(resultSet.getString("value"));
+		entity.setValue(resultSet.getString("value"));
 		entity.setCreated(resultSet.getTimestamp("created"));
 		entity.setUpdated(resultSet.getTimestamp("updated"));
 		return entity;
