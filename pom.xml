@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.itacademy.jd2.apetrov.wcms</groupId>
+	<groupId>com.itacademy.jd2.apetrov.cms</groupId>
 	<artifactId>parent-project</artifactId>
 	<version>1.0.0</version>
 
@@ -32,25 +32,25 @@
 		<dependencies>
 			<!-- Project modules -->
 			<dependency>
-				<groupId>com.itacademy.jd2.apetrov.wcms</groupId>
+				<groupId>com.itacademy.jd2.apetrov.cms</groupId>
 				<artifactId>dao-api</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.itacademy.jd2.apetrov.wcms</groupId>
+				<groupId>com.itacademy.jd2.apetrov.cms</groupId>
 				<artifactId>dao-jdbc-impl</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.itacademy.jd2.apetrov.wcms</groupId>
+				<groupId>com.itacademy.jd2.apetrov.cms</groupId>
 				<artifactId>service</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.itacademy.jd2.apetrov.wcms</groupId>
+				<groupId>com.itacademy.jd2.apetrov.cms</groupId>
 				<artifactId>web</artifactId>
 				<version>1.0.0</version>
 			</dependency>
